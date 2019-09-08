@@ -1,0 +1,120 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.ctn {
+    position: relative;
+    width: 1800px;
+    height: 865px;
+    background: lightblue;
+    border-radius: 2%;
+    margin-top: 60px;
+}
+
+.play {
+    position: absolute;
+    width: 1800px;
+    height: 65px;
+    background: rgba(90, 80, 233, 0.856);
+    text-align: center;
+    border: 5px solid rgb(255, 102, 0);
+    padding-top: 2px;
+    margin-top: 32px;
+    font-size: 40px;
+    font-family: comic, Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 115, 0);
+
+}
+
+.ecran {
+    position: relative;
+    width: 1325px;
+    height: 722px;
+    background: black;
+    margin-top: 113px;
+    margin-left: 24px;
+    border: 5px solid blue;
+}
+
+#catchMe {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: yellowgreen;
+    border: 3px lawngreen;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: comic, Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+ /* #catchMe{
+    position: absolute;
+}  */
+
+ #catchMe {
+    animation-name: rotating;
+    animation-delay: 2s;
+    animation-duration: infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 2s linear infinite;
+} 
+
+.score {
+    position: absolute;
+    width: 392px;
+    height: 723px;
+    margin-left: 1372px;
+    margin-top: 113px;
+    background: midnightblue;
+    border: 4px solid green;
+    font-family: comic, Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.s {
+    position: relative;
+    background: lightblue;
+    height: 69px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 16px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+.p {
+    display: inline-flex;
+    padding: 18px;
+    font-size: x-large;
+}
+
+#flex {
+    display: flex;
+}
+#hs{
+    height: 7px;
+    padding-top: 0px;
+}
+.carre{
+    position: relative;
+    background: lightblue;
+    height: 173px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
